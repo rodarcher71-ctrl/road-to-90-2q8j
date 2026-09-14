@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Road to 90">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <title>Road to 90</title>
+  <style>
+    :root{
+      --bg:#0f172a; --card:#111827; --panel:#1f2937; --text:#f8fafc;
+      --muted:#94a3b8; --accent:#22c55e; --gold:#f59e0b; --border:#334155;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#0b1220,#0f172a);color:var(--text)}
+    .wrap{max-width:760px;margin:0 auto;padding:18px 16px 36px}
+    .hero{padding:18px 0 8px}
+    .eyebrow{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+    h1{font-size:34px;line-height:1.05;margin:6px 0 4px}
+    .sub{color:var(--muted)}
+    .grid{display:grid;gap:12px}
+    .two{grid-template-columns:1fr}
+    @media(min-width:700px){.two{grid-template-columns:1fr 1fr}}
+    .card{background:rgba(17,24,39,.94);border:1px solid var(--border);border-radius:18px;padding:16px}
+    .big{font-size:28px;font-weight:800}
+    .muted{color:var(--muted);font-size:14px}
+    .bar{height:14px;background:#0b1220;border-radius:999px;overflow:hidden;margin-top:12px}
+    .bar>span{display:block;height:100%;width:60%;background:var(--accent)}
+    .xp-line{font-weight:800;font-size:15px;line-height:1.5;word-break:break-word}
+    .session{display:flex;justify-content:space-between;gap:10px;padding:11px 12px;border-radius:13px;background:var(--panel);margin-top:8px}
+    .session strong{display:block}
+    .badge{display:inline-block;padding:6px 9px;border-radius:999px;font-size:12px;background:#0b1220;border:1px solid var(--border);color:var(--muted)}
+    .btn{width:100%;border:0;border-radius:14px;min-height:48px;padding:12px 14px;font-size:16px;font-weight:700;background:var(--accent);color:#06210f;margin-top:10px}
+    .btn.secondary{background:#0b1220;color:var(--text);border:1px solid var(--border)}
+    .log-row{padding:10px 0;border-bottom:1px solid var(--border);font-size:14px}
+    .pill{display:inline-block;margin:4px 6px 0 0;padding:7px 10px;border-radius:999px;border:1px solid var(--border);background:#0b1220;font-size:13px}
+    input{width:100%;min-height:46px;border-radius:12px;border:1px solid var(--border);background:#0b1220;color:var(--text);padding:10px 12px;font-size:16px;margin-top:8px}
+    footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="eyebrow">Fitness game</div>
+    <h1>Road to 90</h1>
+    <div class="sub">Earn it. Prove it. Bank the XP.</div>
+  </section>
+
+  <section class="grid two">
+    <div class="card">
+      <div class="muted">Current game status</div>
+      <div class="big"><span id="level">Level 1</span> · <span id="xp">45</span> XP</div>
+      <div class="bar"><span id="xpBar"></span></div>
+      <div class="muted" style="margin-top:8px"><span id="rewardLeft">5</span> XP to first reward</div>
+    </div>
+    <div class="card">
+      <div class="muted">Four-week mission</div>
+      <div class="big">100.0 → 98.0 kg</div>
+      <div class="muted">Weight scores at the checkpoint, not week-to-week.</div>
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <div class="muted">Official XP line</div>
+    <div id="xpLine" class="xp-line" style="margin-top:8px"></div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <div class="muted">Weekly schedule</div>
+    <div class="session"><div><strong>Monday</strong><span class="muted">AM gym/class · PM 30 min Zone 2 run</span></div><span class="badge">25 XP</span></div>
+    <div class="session"><div><strong>Tuesday</strong><span class="muted">40 min Zone 2 run</span></div><span class="badge">10 XP</span></div>
+    <div class="session"><div><strong>Wednesday</strong><span class="muted">AM run-club intervals · PM gym: core, hip stability + overall strength</span></div><span class="badge">35 XP</span></div>
+    <div class="session"><div><strong>Thursday</strong><span class="muted">Easy aerobic run · 5–6 km</span></div><span class="badge">10 XP</span></div>
+    <div class="session"><div><strong>Friday</strong><span class="muted">Lighthouse Beach social ocean dip with friends · photo evidence</span></div><span class="badge">10 XP</span></div>
+    <div class="session"><div><strong>Saturday</strong><span class="muted">Inverell parkrun · controlled strong effort</span></div><span class="badge">15 XP</span></div>
+    <div class="session"><div><strong>Sunday</strong><span class="muted">TBA · must be agreed before the session</span></div><span class="badge">TBA</span></div>
+  </section>
+
+  <section class="grid two" style="margin-top:12px">
+    <div class="card">
+      <div class="muted">Unlocked badges</div>
+      <div class="pill">🏁 Game Started</div>
+      <div class="pill">🏃 Sub-28 · 27:58</div>
+      <div class="pill">🎁 First Reward · locked</div>
+    </div>
+    <div class="card">
+      <div class="muted">Rulebook</div>
+      <div class="log-row">Evidence required: Garmin screenshot or gym photo.</div>
+      <div class="log-row">No evidence = no XP.</div>
+      <div class="log-row">Illness = recovery, 0 XP, no penalty.</div>
+      <div class="log-row">Rule changes require 24-hour reconfirmation.</div>
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <div class="muted">Local app controls</div>
+    <label class="muted" for="addXp">Add verified XP</label>
+    <input id="addXp" type="number" inputmode="numeric" min="0" max="100" value="10">
+    <button class="btn" id="bankXp">Bank XP</button>
+    <button class="btn secondary" id="resetDemo">Reset to official 45 XP</button>
+    <div class="muted" style="margin-top:10px">This version saves your XP on this device only. Your official score still depends on verified evidence in ChatGPT.</div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <div class="muted">Activity log</div>
+    <div id="log">
+      <div class="log-row">✓ Bago endurance hike · ~11 km · 420 m ascent · 2:24 · +15 XP</div>
+      <div class="log-row">✓ Long aerobic run · ~9 km · 1:01 · +20 XP</div>
+      <div class="log-row">✓ Low-aerobic/base session · +10 XP</div>
+    </div>
+  </section>
+
+  <footer>Road to 90 · installable web app</footer>
+</div>
+
+<script>
+  const OFFICIAL_START = 45;
+  const REWARD_STEP = 50;
+  let xp = Math.max(OFFICIAL_START, Number(localStorage.getItem('road90_xp') || OFFICIAL_START));
+
+  const $ = (id) => document.getElementById(id);
+  function rewardBase(x){ return Math.floor(x / REWARD_STEP) * REWARD_STEP; }
+  function render(){
+    $('xp').textContent = xp;
+    const level = Math.floor(xp / 100) + 1;
+    $('level').textContent = 'Level ' + level;
+    const base = rewardBase(xp);
+    const next = base === xp && xp !== 0 ? base + REWARD_STEP : base + REWARD_STEP;
+    const progress = xp % REWARD_STEP;
+    const pct = Math.min(100, Math.round((progress / REWARD_STEP) * 100));
+    const left = REWARD_STEP - progress;
+    $('xpBar').style.width = pct + '%';
+    $('rewardLeft').textContent = left;
+    const filled = Math.round(pct/10);
+    const blocks = '█'.repeat(filled) + '░'.repeat(10-filled);
+    $('xpLine').textContent = `🏁 ROAD TO 90 │ LVL ${level} │ ${xp} XP │ ${blocks} ${pct}% │ 🎁 ${left} XP TO REWARD`;
+    localStorage.setItem('road90_xp', String(xp));
+  }
+  $('bankXp').addEventListener('click', () => {
+    let add = Number($('addXp').value);
+    if (!Number.isFinite(add) || add < 0) add = 0;
+    add = Math.min(100, Math.round(add));
+    xp += add;
+    const row = document.createElement('div');
+    row.className = 'log-row';
+    row.textContent = `Local entry · +${add} XP`;
+    $('log').prepend(row);
+    render();
+  });
+  $('resetDemo').addEventListener('click', () => {
+    xp = OFFICIAL_START;
+    localStorage.setItem('road90_xp', String(xp));
+    render();
+  });
+  render();
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));
+  }
+</script>
+</body>
+</html>
