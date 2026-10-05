@@ -1,0 +1,25 @@
+{
+  "xp": 330,
+  "level": 4,
+  "currentWeight": 100.0,
+  "targetWeight": 98.0,
+  "rewards": [50, 150, 300, 400, 500],
+  "schedule": [
+    {"day":"Mon AM","session":"Gym session","xp":15,"status":"Pending evidence"},
+    {"day":"Tue AM","session":"6–10 km Zone 2 run","xp":10,"status":"Pending"},
+    {"day":"Tue PM","session":"Upper-body gym","xp":10,"status":"Pending"},
+    {"day":"Wed AM","session":"Run Club intervals — club determines workout","xp":20,"status":"Pending"},
+    {"day":"Thu AM","session":"250 m fast repetitions — anaerobic/leg-turnover focus","xp":15,"status":"Pending"},
+    {"day":"Thu PM","session":"Upper-body gym","xp":10,"status":"Pending"},
+    {"day":"Fri AM","session":"Casual/social swim","xp":5,"status":"Pending"},
+    {"day":"Sat AM","session":"parkrun","xp":20,"status":"Pending"},
+    {"day":"Sun AM","session":"6–10 km Zone 2 run","xp":20,"status":"Pending"},
+    {"day":"Sunday","session":"Bago Bluff walk OR North Brother Mountain","xp":10,"status":"Pending"}
+  ],
+  "weeklyBonus": "Week of 5–11 Oct: 0/135 base XP • 0/10 sessions verified • Consistency: 8/10 +10 XP, 9/10 +15 XP, 10/10 +20 XP • parkrun bonus: 27:17–27:00 +3 XP, 26:59–26:45 +5 XP, ≤26:44 +10 XP.",
+  "activities": [
+    {"date":"4 Oct","name":"6–10 km Zone 2 — verified","xp":20},
+    {"date":"3 Oct","name":"Port Macquarie parkrun — official 27:18 — verified","xp":20}
+  ],
+  "badges": ["Game Started","Sub-28 • 27:18","300 XP unlocked","400 XP wallpaper — 70 XP to go"]
+}
