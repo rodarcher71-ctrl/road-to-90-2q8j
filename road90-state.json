@@ -1,5 +1,5 @@
 {
-  "xp": 380,
+  "xp": 395,
   "level": 4,
   "currentWeight": 100,
   "targetWeight": 98,
@@ -39,19 +39,19 @@
       "day": "Thu AM",
       "session": "250 m fast repetitions — anaerobic/leg-turnover focus",
       "xp": 15,
-      "status": "Pending"
+      "status": "Missed"
     },
     {
       "day": "Thu PM",
       "session": "Upper-body gym",
       "xp": 10,
-      "status": "Pending"
+      "status": "Done"
     },
     {
       "day": "Fri AM",
       "session": "Casual/social swim",
       "xp": 5,
-      "status": "Pending"
+      "status": "Done"
     },
     {
       "day": "Sat AM",
@@ -72,8 +72,23 @@
       "status": "Pending"
     }
   ],
-  "weeklyBonus": "Week of 5–11 Oct: 55/135 base XP • 4/10 sessions verified • Consistency: 8/10 +10 XP, 9/10 +15 XP, 10/10 +20 XP • parkrun bonus: 27:17–27:00 +3 XP, 26:59–26:45 +5 XP, ≤26:44 +10 XP.",
+  "weeklyBonus": "Week of 5–11 Oct: 70/135 base XP • 6/10 sessions verified • 1 missed • 3 pending • 50 base XP remaining available • Consistency: 8/10 +10 XP, 9/10 +15 XP (maximum now), 10/10 +20 XP unavailable due to missed Thursday AM • parkrun bonus: 27:17–27:00 +3 XP, 26:59–26:45 +5 XP, ≤26:44 +10 XP.",
   "activities": [
+    {
+      "date": "9 Oct",
+      "name": "Friday social ocean swim/dip — beach photo verified under agreed evidence rule",
+      "xp": 5
+    },
+    {
+      "date": "8 Oct",
+      "name": "Thursday PM upper-body gym — photo evidence verified",
+      "xp": 10
+    },
+    {
+      "date": "8 Oct",
+      "name": "Thursday AM 250 m repetitions — missed, no XP",
+      "xp": 0
+    },
     {
       "date": "7 Oct",
       "name": "Wednesday Run Club intervals — 43:10, avg pace 6:37/km, avg HR 145, max HR 175, aerobic 3.7 / anaerobic 2.7 — Garmin evidence verified",
@@ -109,6 +124,6 @@
     "Game Started",
     "Sub-28 • 27:18",
     "300 XP unlocked",
-    "400 XP wallpaper — 20 XP to go"
+    "400 XP wallpaper — 5 XP to go"
   ]
 }
