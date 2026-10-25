@@ -12,61 +12,67 @@
   ],
   "schedule": [
     {
-      "day": "Mon",
-      "session": "Rest following Ironman volunteering",
-      "xp": 0,
-      "status": "Rest"
+      "day": "Mon AM",
+      "session": "Strength gym",
+      "xp": 15,
+      "status": "Pending"
     },
     {
       "day": "Tue AM",
-      "session": "6–10 km Zone 2 run",
+      "session": "4 × 800 m at 5:05–5:15/km; 2–3 min easy recovery, warm-up and cool-down",
       "xp": 10,
-      "status": "Completed — no XP (Zone 2 requirement not met)"
+      "status": "Pending"
     },
     {
       "day": "Tue PM",
       "session": "Upper-body gym",
       "xp": 10,
-      "status": "Done"
+      "status": "Pending"
     },
     {
       "day": "Wed AM",
       "session": "Run Club intervals — club determines workout",
       "xp": 20,
-      "status": "Done"
+      "status": "Pending"
     },
     {
       "day": "Thu AM",
-      "session": "250 m speed repetitions",
+      "session": "4–6 × 250 m controlled strides; alternative 6 km genuine Zone 2 only for mild hip pain, not fatigue; one session only",
       "xp": 15,
       "status": "Pending"
     },
     {
       "day": "Thu PM",
-      "session": "Gym session",
+      "session": "Upper-body gym",
       "xp": 10,
       "status": "Pending"
     },
     {
-      "day": "Fri",
-      "session": "Rest / Gold Coast travel",
-      "xp": 0,
-      "status": "Rest"
+      "day": "Fri AM",
+      "session": "Recovery/social swim",
+      "xp": 5,
+      "status": "Pending"
     },
     {
       "day": "Sat AM",
-      "session": "Gold Coast parkrun",
+      "session": "parkrun 5 km — official result required",
       "xp": 20,
-      "status": "Done"
+      "status": "Pending"
+    },
+    {
+      "day": "Sun AM",
+      "session": "6–10 km genuine Zone 2",
+      "xp": 20,
+      "status": "Pending"
     },
     {
       "day": "Sun",
-      "session": "Rest / return travel",
-      "xp": 0,
-      "status": "Rest"
+      "session": "Bago Bluff or North Brother mountain walk",
+      "xp": 10,
+      "status": "Pending"
     }
   ],
-  "weeklyBonus": "19-25 Oct: 50 verified XP (Tuesday gym 10, Wednesday intervals 20, Saturday official parkrun 20). Thursday speed and gym remain unverified (0 awarded). Tuesday Zone 2 did not qualify (0). Saturday official 27:43: performance bonus 0. Consistency bonus 0, confirmed for this week. Proposed 26 Oct-8 Nov full-week speed-endurance schedule remains provisional pending explicit reconfirmation after 24 hours.",
+  "weeklyBonus": "Confirmed two-week speed-endurance plan 26 Oct–8 Nov 2026 (explicitly reconfirmed 25 Oct after 24-hour cooling-off). Week 26 Oct–1 Nov: 0 verified XP so far; 10 sessions, 135 base XP possible. Consistency ladder 8/10 +10, 9/10 +15, 10/10 +20 (not cumulative), plus official parkrun time bonus up to +10; maximum 165. Lifetime verified XP 498. Thursday 6 km Zone 2 alternative eligible only for mild hip pain, not fatigue; worsening pain or altered gait means stop and 0 XP. No evidence = no XP; no retrospective XP or unprescribed bonuses. Previous week 19–25 Oct closed at 50 XP and 0 consistency bonus.",
   "activities": [
     {
       "date": "24 Oct",
@@ -165,5 +171,15 @@
       "status": "Provisional — 24-hour cooling-off and explicit reconfirmation required; no XP rule changes"
     }
   ],
-  "weeklyPeriod": "19–25 October 2026"
+  "weeklyPeriod": "26 October–1 November 2026",
+  "confirmedTrainingBlock": {
+    "start": "2026-10-26",
+    "end": "2026-11-08",
+    "confirmedAt": "2026-10-25",
+    "weeklyBaseXp": 135,
+    "weeklyMaxXp": 165,
+    "weeklySessions": 10,
+    "confirmation": "User explicitly reconfirmed after 24-hour cooling-off",
+    "thursdayAlternative": "6 km Zone 2 only for mild hip pain, not fatigue; same 15 XP maximum; no double count"
+  }
 }
