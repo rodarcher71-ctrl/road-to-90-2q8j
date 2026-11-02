@@ -1,5 +1,5 @@
 {
-  "xp": 523,
+  "xp": 548,
   "level": 4,
   "currentWeight": 100,
   "targetWeight": 98,
@@ -15,17 +15,17 @@
       "day": "Mon AM",
       "session": "Strength gym",
       "xp": 15,
-      "status": "Done"
+      "status": "Pending"
     },
     {
       "day": "Tue AM",
       "session": "4 × 800 m at 5:05–5:15/km; 2–3 min easy recovery, warm-up and cool-down",
       "xp": 10,
-      "status": "Done"
+      "status": "Pending"
     },
     {
       "day": "Tue PM",
-      "session": "Upper-body gym",
+      "session": "Home stretching and yoga — 30–40 minutes (approved 3 Nov after cooling-off)",
       "xp": 10,
       "status": "Pending"
     },
@@ -37,13 +37,13 @@
     },
     {
       "day": "Thu AM",
-      "session": "4–6 × 250 m controlled strides; alternative 6 km genuine Zone 2 only for mild hip pain, not fatigue; one session only",
+      "session": "Road-based hill run — 6–7 km total; easy warm-up, 4–6 × 45–60 s controlled uphill efforts, easy downhill recoveries, cool-down (approved 3 Nov)",
       "xp": 15,
       "status": "Pending"
     },
     {
       "day": "Thu PM",
-      "session": "Upper-body gym",
+      "session": "Home stretching and yoga — 30–40 minutes (approved 3 Nov after cooling-off)",
       "xp": 10,
       "status": "Pending"
     },
@@ -72,8 +72,18 @@
       "status": "Pending"
     }
   ],
-  "weeklyBonus": "26 Oct–1 Nov: 25 verified XP (Monday strength +15; Tuesday AM 4 × 800 m +10). 2/10 prescribed sessions verified. Eight sessions pending, 110 base XP remaining. Tuesday PM upper-body gym pending evidence. Consistency ladder: 8/10 +10, 9/10 +15, 10/10 +20 (not cumulative). Official parkrun performance bonus up to +10, unearned. No retrospective XP, no extra XP for fifth 800 m.",
+  "weeklyBonus": "2–8 Nov: 0 XP and 0/10 sessions verified as of 3 Nov. Monday strength gym pending evidence; no retrospective XP for missed sessions. Consistency 8/10 +10, 9/10 +15, 10/10 +20 (not cumulative); parkrun performance up to +10. 135 base XP; 165 max. Lifetime 548 verified including 30 Oct swim +5 and 31 Oct Karoola parkrun +20; neither may be double-counted.",
   "activities": [
+    {
+      "date": "31 Oct",
+      "name": "Karoola Park parkrun official result 29:21, 352nd parkrun; 11/34, age grade 52.36%; verified 20 base XP, no performance bonus",
+      "xp": 20
+    },
+    {
+      "date": "30 Oct",
+      "name": "Friday recovery swim — beach photo and user confirmation; verified",
+      "xp": 5
+    },
     {
       "date": "27 Oct",
       "name": "Tuesday speed endurance — Garmin charts show 5 faster 800 m efforts with recoveries; prescribed 4 × 800 m verified, fifth earns no additional XP; 34:45 total, avg HR 154, max HR 176",
@@ -182,7 +192,7 @@
       "status": "Provisional — 24-hour cooling-off and explicit reconfirmation required; no XP rule changes"
     }
   ],
-  "weeklyPeriod": "26 October–1 November 2026",
+  "weeklyPeriod": "2–8 November 2026",
   "confirmedTrainingBlock": {
     "start": "2026-10-26",
     "end": "2026-11-08",
@@ -191,6 +201,16 @@
     "weeklyMaxXp": 165,
     "weeklySessions": 10,
     "confirmation": "User explicitly reconfirmed after 24-hour cooling-off",
-    "thursdayAlternative": "6 km Zone 2 only for mild hip pain, not fatigue; same 15 XP maximum; no double count"
+    "thursdayAlternative": "6 km Zone 2 only for mild hip pain, not fatigue; same 15 XP maximum; no double count",
+    "scheduleChanges": {
+      "confirmedAt": "2026-11-03",
+      "coolingOffCompleted": true,
+      "changes": [
+        "Tuesday PM home stretching and yoga 30–40 min, 10 XP",
+        "Thursday AM controlled road hill run 6–7 km, 15 XP",
+        "Thursday PM home stretching and yoga 30–40 min, 10 XP"
+      ],
+      "evidenceRequired": true
+    }
   }
 }
