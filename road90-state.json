@@ -1,5 +1,5 @@
 {
-  "xp": 548,
+  "xp": 558,
   "level": 4,
   "currentWeight": 100,
   "targetWeight": 98,
@@ -21,7 +21,7 @@
       "day": "Tue AM",
       "session": "4 × 800 m at 5:05–5:15/km; 2–3 min easy recovery, warm-up and cool-down",
       "xp": 10,
-      "status": "Pending"
+      "status": "Done"
     },
     {
       "day": "Tue PM",
@@ -72,8 +72,13 @@
       "status": "Pending"
     }
   ],
-  "weeklyBonus": "2–8 Nov: 0 XP and 0/10 sessions verified as of 3 Nov. Monday strength gym pending evidence; no retrospective XP for missed sessions. Consistency 8/10 +10, 9/10 +15, 10/10 +20 (not cumulative); parkrun performance up to +10. 135 base XP; 165 max. Lifetime 548 verified including 30 Oct swim +5 and 31 Oct Karoola parkrun +20; neither may be double-counted.",
+  "weeklyBonus": "2–8 Nov: 10 verified XP, 1/10 sessions verified (Tue AM intervals). Monday strength gym pending evidence. 125 base XP unverified. Consistency 8/10 +10, 9/10 +15, 10/10 +20 (not cumulative); parkrun performance bonus up to +10. No retrospective XP, no extra XP for fifth interval.",
   "activities": [
+    {
+      "date": "3 Nov",
+      "name": "Tuesday AM speed endurance — Garmin screenshots show five fast repetitions with recoveries, prescribed 4 × 800 m workout verified; 33:20, average HR 158, max HR 179, aerobic TE 4.2; fifth rep earns no extra XP",
+      "xp": 10
+    },
     {
       "date": "31 Oct",
       "name": "Karoola Park parkrun official result 29:21, 352nd parkrun; 11/34, age grade 52.36%; verified 20 base XP, no performance bonus",
