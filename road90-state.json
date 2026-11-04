@@ -1,5 +1,5 @@
 {
-  "xp": 558,
+  "xp": 573,
   "level": 4,
   "currentWeight": 100,
   "targetWeight": 98,
@@ -39,7 +39,7 @@
       "day": "Thu AM",
       "session": "Road-based hill run — 6–7 km total; easy warm-up, 4–6 × 45–60 s controlled uphill efforts, easy downhill recoveries, cool-down (approved 3 Nov)",
       "xp": 15,
-      "status": "Pending"
+      "status": "Done"
     },
     {
       "day": "Thu PM",
@@ -72,8 +72,13 @@
       "status": "Pending"
     }
   ],
-  "weeklyBonus": "2–8 Nov: 10 verified XP, 1/10 sessions verified (Tue AM intervals). Monday strength gym pending evidence. 125 base XP unverified. Consistency 8/10 +10, 9/10 +15, 10/10 +20 (not cumulative); parkrun performance bonus up to +10. No retrospective XP, no extra XP for fifth interval.",
+  "weeklyBonus": "2–8 Nov: 25 verified XP, 2/10 sessions verified (Tue AM intervals +10; Thu AM hill run +15). Mon gym, Tue PM yoga and Wed intervals remain unverified (45 potential XP not awarded); Tue PM evidence exception remains provisional pending explicit reconfirmation. Thu PM yoga, Fri swim, Sat parkrun, Sun Zone 2 and mountain walk remain pending (65 base XP). Consistency ladder 8/10 +10, 9/10 +15, 10/10 +20 (not cumulative); none earned, with 5 remaining sessions only 7/10 achievable without valid earlier evidence. No retrospective XP, no extra unprescribed XP, no health/safety modification XP where excluded. Evidence rule changes require 24-hour cooling-off and explicit reconfirmation.",
   "activities": [
+    {
+      "date": "5 Nov",
+      "name": "Thursday AM prescribed road hill run — Garmin screenshots and same-day user confirmation; 6.01 km in 39:11, 111 m ascent, average pace 6:31/km, average HR 148, max HR 169; verified prescribed session, no extra elevation XP",
+      "xp": 15
+    },
     {
       "date": "3 Nov",
       "name": "Tuesday AM speed endurance — Garmin screenshots show five fast repetitions with recoveries, prescribed 4 × 800 m workout verified; 33:20, average HR 158, max HR 179, aerobic TE 4.2; fifth rep earns no extra XP",
@@ -217,5 +222,6 @@
       ],
       "evidenceRequired": true
     }
-  }
+  },
+  "lastVerifiedUpdate": "2026-11-05"
 }
