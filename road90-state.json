@@ -1,5 +1,5 @@
 {
-  "xp": 573,
+  "xp": 598,
   "level": 4,
   "currentWeight": 100,
   "targetWeight": 98,
@@ -51,13 +51,13 @@
       "day": "Fri AM",
       "session": "Recovery/social swim",
       "xp": 5,
-      "status": "Pending"
+      "status": "Done"
     },
     {
       "day": "Sat AM",
       "session": "parkrun 5 km — official result required",
       "xp": 20,
-      "status": "Pending"
+      "status": "Done"
     },
     {
       "day": "Sun AM",
@@ -72,8 +72,18 @@
       "status": "Pending"
     }
   ],
-  "weeklyBonus": "2–8 Nov: 25 verified XP, 2/10 sessions verified (Tue AM intervals +10; Thu AM hill run +15). Mon gym, Tue PM yoga and Wed intervals remain unverified (45 potential XP not awarded); Tue PM evidence exception remains provisional pending explicit reconfirmation. Thu PM yoga, Fri swim, Sat parkrun, Sun Zone 2 and mountain walk remain pending (65 base XP). Consistency ladder 8/10 +10, 9/10 +15, 10/10 +20 (not cumulative); none earned, with 5 remaining sessions only 7/10 achievable without valid earlier evidence. No retrospective XP, no extra unprescribed XP, no health/safety modification XP where excluded. Evidence rule changes require 24-hour cooling-off and explicit reconfirmation.",
+  "weeklyBonus": "Week 2–8 Nov 2026: 50 base XP verified, 4/10 prescribed sessions (Tue AM intervals +10, Thu AM hill run +15, Fri AM recovery swim +5, Sat AM Coffs Creek parkrun +20). No performance bonus for 31:25; no consistency bonus (ladder 8/10 +10, 9/10 +15, 10/10 +20, not cumulative). Sunday Zone 2 6–10 km +20 and mountain walk +10 remain scheduled and require evidence; together would reach 80 weekly XP and 6/10, still no consistency bonus. Mon gym, Tue PM yoga, Wed intervals and Thu PM yoga remain unverified, no retrospective awards; Tue PM one-time evidence exception remains provisional pending explicit post-cooling-off reconfirmation. No unprescribed bonus XP, and health/safety modifications receive 0 XP where excluded.",
   "activities": [
+    {
+      "date": "6 Nov",
+      "name": "Friday recovery/social swim — same-day beach group photograph and user identification of this morning's swim, accepted under established photo evidence practice; +5 XP",
+      "xp": 5
+    },
+    {
+      "date": "7 Nov",
+      "name": "Coffs Creek parkrun event #3 — official result 31:25, 353rd parkrun, 37th/77, VM55–59 4th, age grade 48.91%; Garmin run 31:30, avg HR 143/max 154; Saturday 5 km parkrun verified, +20 base XP, no performance bonus",
+      "xp": 20
+    },
     {
       "date": "5 Nov",
       "name": "Thursday AM prescribed road hill run — Garmin screenshots and same-day user confirmation; 6.01 km in 39:11, 111 m ascent, average pace 6:31/km, average HR 148, max HR 169; verified prescribed session, no extra elevation XP",
@@ -223,5 +233,5 @@
       "evidenceRequired": true
     }
   },
-  "lastVerifiedUpdate": "2026-11-05"
+  "lastVerifiedUpdate": "2026-11-07"
 }
