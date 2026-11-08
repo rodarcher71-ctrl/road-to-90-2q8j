@@ -1,5 +1,5 @@
 {
-  "xp": 598,
+  "xp": 628,
   "level": 4,
   "currentWeight": 100,
   "targetWeight": 98,
@@ -8,7 +8,18 @@
     150,
     300,
     400,
-    500
+    500,
+    600,
+    750,
+    900,
+    1050,
+    1200,
+    1350,
+    1500,
+    1650,
+    1800,
+    1950,
+    2100
   ],
   "schedule": [
     {
@@ -19,31 +30,44 @@
     },
     {
       "day": "Tue AM",
-      "session": "4 × 800 m at 5:05–5:15/km; 2–3 min easy recovery, warm-up and cool-down",
+      "session": "4 × 800 m at 5:05–5:15/km, 2–3 min easy recovery, warm-up and cool-down",
       "xp": 10,
-      "status": "Done"
+      "status": "Pending"
     },
     {
       "day": "Tue PM",
-      "session": "Home stretching and yoga — 30–40 minutes (approved 3 Nov after cooling-off)",
+      "session": "Home stretching and yoga — 30–40 min; Garmin Yoga recording mandatory",
       "xp": 10,
       "status": "Pending"
     },
     {
       "day": "Wed AM",
-      "session": "Run Club intervals — club determines workout",
+      "session": "Option A: Run Club intervals (club determines workout), 20 XP; OR Option B: hip-friendly walk/easy run 30–45 min if hips aggravated, 10 XP; Garmin evidence; only one option counts",
       "xp": 20,
-      "status": "Pending"
+      "status": "Pending",
+      "alternatives": [
+        {
+          "name": "A",
+          "session": "Run Club intervals",
+          "xp": 20
+        },
+        {
+          "name": "B",
+          "session": "Hip-friendly walk/easy run 30–45 min",
+          "xp": 10
+        }
+      ],
+      "selectedOption": null
     },
     {
       "day": "Thu AM",
-      "session": "Road-based hill run — 6–7 km total; easy warm-up, 4–6 × 45–60 s controlled uphill efforts, easy downhill recoveries, cool-down (approved 3 Nov)",
+      "session": "Road hill run 6–7 km; easy warm-up, 4–6 × 45–60 sec controlled uphill efforts, easy downhill recoveries, cool-down",
       "xp": 15,
-      "status": "Done"
+      "status": "Pending"
     },
     {
       "day": "Thu PM",
-      "session": "Home stretching and yoga — 30–40 minutes (approved 3 Nov after cooling-off)",
+      "session": "Home stretching and yoga — 30–40 min; Garmin Yoga recording mandatory",
       "xp": 10,
       "status": "Pending"
     },
@@ -51,17 +75,17 @@
       "day": "Fri AM",
       "session": "Recovery/social swim",
       "xp": 5,
-      "status": "Done"
+      "status": "Pending"
     },
     {
       "day": "Sat AM",
-      "session": "parkrun 5 km — official result required",
+      "session": "parkrun 5 km — official result required; performance bonus +3 (27:00–27:59), +5 (26:00–26:59), +10 (under 26:00); highest only",
       "xp": 20,
-      "status": "Done"
+      "status": "Pending"
     },
     {
       "day": "Sun AM",
-      "session": "6–10 km genuine Zone 2",
+      "session": "6–10 km genuine Zone 2 run; Garmin HR-zone evidence",
       "xp": 20,
       "status": "Pending"
     },
@@ -72,8 +96,18 @@
       "status": "Pending"
     }
   ],
-  "weeklyBonus": "Week 2–8 Nov 2026: 50 base XP verified, 4/10 prescribed sessions (Tue AM intervals +10, Thu AM hill run +15, Fri AM recovery swim +5, Sat AM Coffs Creek parkrun +20). No performance bonus for 31:25; no consistency bonus (ladder 8/10 +10, 9/10 +15, 10/10 +20, not cumulative). Sunday Zone 2 6–10 km +20 and mountain walk +10 remain scheduled and require evidence; together would reach 80 weekly XP and 6/10, still no consistency bonus. Mon gym, Tue PM yoga, Wed intervals and Thu PM yoga remain unverified, no retrospective awards; Tue PM one-time evidence exception remains provisional pending explicit post-cooling-off reconfirmation. No unprescribed bonus XP, and health/safety modifications receive 0 XP where excluded.",
+  "weeklyBonus": "New week 9–15 Nov: 0 verified XP, 0/10 sessions. Approved base max 135 XP with Wed Option A (+20), or 125 XP with Option B (+10). Consistency ladder 8/10 +10, 9/10 +15, 10/10 +20 (noncumulative). Official parkrun bonus +3 at 27:00–27:59, +5 at 26:00–26:59, +10 under 26:00 (highest only). Weekly maximum 165 Option A / 155 Option B. Strict evidence: no evidence no XP; no retrospective XP or extra XP for unprescribed work; Garmin Yoga mandatory. Prior week 2–8 Nov closed with 80 verified XP and 6/10 sessions, no consistency bonus; Tuesday yoga exception confirmed but XP not retrospectively awarded.",
   "activities": [
+    {
+      "date": "8 Nov",
+      "name": "Sunday AM genuine Zone 2 run — Garmin 1:01:43, avg pace 6:10/km (~10 km), avg HR 145, 43:10 (69%) in Zone 2 135–147 bpm, 2:52 Zone 1; verified prescribed session",
+      "xp": 20
+    },
+    {
+      "date": "8 Nov",
+      "name": "Sunday North Brother mountain walk — Garmin Walking activity 8 Nov 9:20 am, 5.50 km, 2:00:42, 455 m ascent, avg HR 116; prescribed mountain walk verified",
+      "xp": 10
+    },
     {
       "date": "6 Nov",
       "name": "Friday recovery/social swim — same-day beach group photograph and user identification of this morning's swim, accepted under established photo evidence practice; +5 XP",
@@ -212,26 +246,54 @@
       "status": "Provisional — 24-hour cooling-off and explicit reconfirmation required; no XP rule changes"
     }
   ],
-  "weeklyPeriod": "2–8 November 2026",
+  "weeklyPeriod": "9–15 November 2026",
   "confirmedTrainingBlock": {
-    "start": "2026-10-26",
-    "end": "2026-11-08",
-    "confirmedAt": "2026-10-25",
-    "weeklyBaseXp": 135,
-    "weeklyMaxXp": 165,
-    "weeklySessions": 10,
+    "start": "2026-11-09",
+    "end": "2026-11-15",
+    "confirmedAt": "2026-11-08",
+    "coolingOffCompleted": true,
     "confirmation": "User explicitly reconfirmed after 24-hour cooling-off",
-    "thursdayAlternative": "6 km Zone 2 only for mild hip pain, not fatigue; same 15 XP maximum; no double count",
-    "scheduleChanges": {
-      "confirmedAt": "2026-11-03",
-      "coolingOffCompleted": true,
-      "changes": [
-        "Tuesday PM home stretching and yoga 30–40 min, 10 XP",
-        "Thursday AM controlled road hill run 6–7 km, 15 XP",
-        "Thursday PM home stretching and yoga 30–40 min, 10 XP"
-      ],
-      "evidenceRequired": true
+    "weeklyBaseXpOptionA": 135,
+    "weeklyBaseXpOptionB": 125,
+    "weeklyMaxXpOptionA": 165,
+    "weeklyMaxXpOptionB": 155,
+    "weeklySessions": 10,
+    "wednesdayAlternatives": {
+      "A": {
+        "xp": 20,
+        "session": "Run Club intervals"
+      },
+      "B": {
+        "xp": 10,
+        "session": "Hip-friendly walk or easy run 30–45 min when hips aggravated"
+      },
+      "onlyOneCounts": true
+    },
+    "parkrunTimeBonus": {
+      "under28": 3,
+      "under27": 5,
+      "under26": 10,
+      "highestOnly": true,
+      "officialResultRequired": true
+    },
+    "evidence": {
+      "yoga": "Garmin Yoga activity mandatory",
+      "other": "Garmin activity or established accepted evidence",
+      "safety": "No XP for unprescribed health/safety modifications where excluded"
+    },
+    "priorWeek": {
+      "period": "2026-11-02 to 2026-11-08",
+      "verifiedXp": 80,
+      "verifiedSessions": 6,
+      "consistencyBonus": 0
     }
   },
-  "lastVerifiedUpdate": "2026-11-07"
+  "lastVerifiedUpdate": "2026-11-08",
+  "wallpaperMilestones": {
+    "confirmedAt": "2026-11-08",
+    "firstNewMilestone": 600,
+    "increment": 150,
+    "rule": "Every 150 lifetime XP from 600 onwards; existing milestones before 600 preserved",
+    "milestone600": "Milford Track, 90 kg, sub-27-minute parkrun wallpaper unlocked at 628 verified XP"
+  }
 }
