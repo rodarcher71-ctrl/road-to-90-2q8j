@@ -1,5 +1,5 @@
 {
-  "xp": 628,
+  "xp": 633,
   "level": 4,
   "currentWeight": 100,
   "targetWeight": 98,
@@ -75,7 +75,7 @@
       "day": "Fri AM",
       "session": "Recovery/social swim",
       "xp": 5,
-      "status": "Pending"
+      "status": "Done"
     },
     {
       "day": "Sat AM",
@@ -96,8 +96,13 @@
       "status": "Pending"
     }
   ],
-  "weeklyBonus": "New week 9–15 Nov: 0 verified XP, 0/10 sessions. Approved base max 135 XP with Wed Option A (+20), or 125 XP with Option B (+10). Consistency ladder 8/10 +10, 9/10 +15, 10/10 +20 (noncumulative). Official parkrun bonus +3 at 27:00–27:59, +5 at 26:00–26:59, +10 under 26:00 (highest only). Weekly maximum 165 Option A / 155 Option B. Strict evidence: no evidence no XP; no retrospective XP or extra XP for unprescribed work; Garmin Yoga mandatory. Prior week 2–8 Nov closed with 80 verified XP and 6/10 sessions, no consistency bonus; Tuesday yoga exception confirmed but XP not retrospectively awarded.",
+  "weeklyBonus": "Week 9–15 Nov: Friday 13 Nov recovery/social swim verified +5 XP in GitHub. Other verified activities from this week may remain unsynced; reconcile against conversation evidence before changing their statuses or adding XP. Consistency ladder 8/10 +10, 9/10 +15, 10/10 +20 (noncumulative). Strict evidence rules apply.",
   "activities": [
+    {
+      "date": "13 Nov",
+      "name": "Friday recovery/social swim — same-day beach selfie and user confirmation 'Morning swim'; accepted photographic evidence for prescribed Friday swim; +5 XP",
+      "xp": 5
+    },
     {
       "date": "8 Nov",
       "name": "Sunday AM genuine Zone 2 run — Garmin 1:01:43, avg pace 6:10/km (~10 km), avg HR 145, 43:10 (69%) in Zone 2 135–147 bpm, 2:52 Zone 1; verified prescribed session",
@@ -288,7 +293,7 @@
       "consistencyBonus": 0
     }
   },
-  "lastVerifiedUpdate": "2026-11-08",
+  "lastVerifiedUpdate": "2026-11-13",
   "wallpaperMilestones": {
     "confirmedAt": "2026-11-08",
     "firstNewMilestone": 600,
